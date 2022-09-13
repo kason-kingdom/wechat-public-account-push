@@ -24,7 +24,7 @@ export const config = {
    *   }, 
    * ]
    */
-  USERS: [oJylF6DyInDjZlVEPgty-AkXrERA
+  USERS: "oJylF6BzVPT23xow0UDYoxznECTE"
     {
       // 想要发送的人的名字
       name: "何总",
