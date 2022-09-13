@@ -24,7 +24,7 @@ export const config = {
    *   }, 
    * ]
    */
-  USERS: [13520089686
+  USERS: [oJylF6DyInDjZlVEPgty-AkXrERA
     {
       // 想要发送的人的名字
       name: "何总",
@@ -70,7 +70,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "oJylF6DyInDjZlVEPgty-AkXrERA",
+  CALLBACK_TEMPLATE_ID: "7AVOTVvq_4KGQ6gwB5qjQfN4FJ_J6zlWpOBz-MUzUis",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [13520089686
