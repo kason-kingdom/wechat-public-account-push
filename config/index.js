@@ -40,30 +40,14 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "何总", 
+      id: "oJylF6BzVPT23xow0UDYoxznECTE",
+      useTemplateId: "oJylF6DyInDjZlVEPgty-AkXrERA",
+      province: "广东省",
+      city: "潮州",
       openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆3", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-  ],
+    }
+   
 
   /**
    * 回调消息 相关，主要用来展示发送是否成功/失败的数据
@@ -101,7 +85,7 @@ export const config = {
    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
-  FESTIVALS: [
+  FESTIVALS: "type": "生日", "name": "老婆", "year": "1996", "date": "09-02"
     {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
@@ -121,7 +105,7 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
-  CUSTOMIZED_DATE_LIST: [
+  CUSTOMIZED_DATE_LIST:"keyword": "love_day", date: "2015-05-01"
     // 在一起的日子
     {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
@@ -139,7 +123,7 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
-  SLOT_LIST: [
+  SLOT_LIST: ["keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
